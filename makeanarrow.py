@@ -14,7 +14,13 @@ import os
 from pathlib import Path
 import config
 
-
+"""
+The folder in which it runs should contain only images for the movie. 
+They should be named with numbers.
+in config.py you can specify the center of the obstacle, and omega used to 
+calculate the angle of the arrow. This will be proportional to the 
+frequency of CPEF. But there will be some scale factor.
+"""
 
 fig=plt.figure(figsize=(12,6))
 """
